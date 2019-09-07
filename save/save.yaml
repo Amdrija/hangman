@@ -1,0 +1,5 @@
+--- !ruby/object:Hangman
+secret_word: sitarist
+display_word: '_ _ _ _ _ _ _ _ '
+tries_left: 10
+failed_letters: ''

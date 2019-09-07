@@ -1,2 +1,3 @@
 # Hangman
-Recreation of well-known game hangman in console by using Ruby. The computer randomly chooses a word between 5 and 12 letters from a file and you have 8 tries to guess it. There is also an option to save the game and continue later.
+Recreation of well-known game hangman in console by using Ruby. The computer randomly chooses a word between 5 and 12 letters from a file and you have 8 tries to guess it. There is also an option to save the game and continue later.  
+The save option uses YAML for serialization, which means that the user could save the game, open the "save.yaml" file and see the secret word. At the time of making this game, I didn't know how to encrypt files using Ruby, so anyone can access it. It wouldn't matter if I used a format that isn't human readable, because anyone using IRB can unpack it and still see the information.
